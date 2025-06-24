@@ -114,3 +114,13 @@ form.addEventListener("submit", function (e) {
       message.style.color = "red";
     });
 });
+let currentIndex = 0;
+const slides = document.querySelectorAll(".slide");
+const totalSlides = slides.length;
+
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % totalSlides;
+  document.querySelector(".slides").style.transform = `translateX(-${
+    currentIndex * 100
+  }%)`;
+}, 3000);
