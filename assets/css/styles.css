@@ -386,6 +386,68 @@ img {
   height: 100%;
   object-fit: cover;
 }
+/* Project Card */
+.work__item {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background-color: #fff;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.work__item:hover {
+  transform: translateY(-5px);
+}
+
+/* Project Title */
+.work__title {
+  font-size: 1.25rem;
+  color: var(--second-color);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: var(--font-semi);
+}
+
+/* Project Description */
+.work__desc {
+  font-size: var(--normal-font-size);
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+/* Button Container */
+.work__links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+/* Buttons */
+.work__button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--first-color);
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: var(--font-semi);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work__button:hover {
+  background-color: hsl(var(--hue-color), 89%, 50%);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
 
 /* ===== CONTACT =====*/
 .contact__input {
