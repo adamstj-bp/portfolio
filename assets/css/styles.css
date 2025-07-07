@@ -404,7 +404,7 @@ img {
 .work__title {
   font-size: 1.25rem;
   color: var(--second-color);
-  margin-top: 1rem;
+  margin-top: 20px;
   margin-bottom: 0.5rem;
   font-weight: var(--font-semi);
 }
@@ -416,6 +416,7 @@ img {
   line-height: 1.6;
   margin-bottom: 1rem;
   padding: 0 0.5rem;
+  margin-top: 10px;
 }
 
 /* Button Container */
@@ -424,7 +425,8 @@ img {
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Buttons */
